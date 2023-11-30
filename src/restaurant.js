@@ -46,8 +46,9 @@ const createMenu = (menu) => {
     fetchMenu: () => menu,
     consumption: [],
     order: (foodOrDrink) => {
-      if (Object.keys(menu.food).includes(foodOrDrink) || Object.keys(menu.drink).includes(foodOrDrink)) {
-        myRestaurant.consumption.push(foodOrDrink);
+      if (Object.keys(menu.food).includes(foodOrDrink) 
+        || Object.keys(menu.drink).includes(foodOrDrink)) {
+          myRestaurant.consumption.push(foodOrDrink);
       } else {
         return 'Item indisponível';
       }
