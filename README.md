@@ -1,10 +1,24 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Repositório do projeto Unit Tests! 
+
+  Este projeto representa meus primeiros passos no Jest, que é um Framework de testes. Nele construo testes utilizando os matchers disponibilizados pelo Jest, implemento e corrijo funções. 
+
+# Orientações
+
+<details>
+  <summary><strong>Para clonar o repositório</strong></summary><br />
+
+1. Clone o repositório
+
+  - `git clone git@github.com:renanmarquesgarcia/unit-tests.git`.
+  - Entre na pasta do repositório que você acabou de clonar:
+    - `cd unit-tests`
+  - Crie a sua branch:
+    - Exemplo: `git checkout -b joaozinho-unit-tests`
+
+2. Instale as dependências:
+
+  - Para isso, use o seguinte comando: `npm install`
+
+3. Executando os tests
+  - `npm test` (executa todos os testes)
+  - `npm test` caminho/para/arquivo (executa apenas os testes presentes no arquivo especificado) 
